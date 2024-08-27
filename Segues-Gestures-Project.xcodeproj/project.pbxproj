@@ -13,6 +13,8 @@
 		966DA5F92C7DD2AF00F00B35 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 966DA5F82C7DD2AF00F00B35 /* Base */; };
 		966DA5FB2C7DD2B200F00B35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 966DA5FA2C7DD2B200F00B35 /* Assets.xcassets */; };
 		966DA5FE2C7DD2B200F00B35 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 966DA5FD2C7DD2B200F00B35 /* Base */; };
+		966DA6082C7DD9E000F00B35 /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966DA6072C7DD9E000F00B35 /* ConfirmViewController.swift */; };
+		966DA60A2C7DD9F600F00B35 /* FailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 966DA6092C7DD9F600F00B35 /* FailedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		966DA5FA2C7DD2B200F00B35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		966DA5FD2C7DD2B200F00B35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		966DA5FF2C7DD2B200F00B35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		966DA6072C7DD9E000F00B35 /* ConfirmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
+		966DA6092C7DD9F600F00B35 /* FailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FailedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				966DA5FA2C7DD2B200F00B35 /* Assets.xcassets */,
 				966DA5FC2C7DD2B200F00B35 /* LaunchScreen.storyboard */,
 				966DA5FF2C7DD2B200F00B35 /* Info.plist */,
+				966DA6072C7DD9E000F00B35 /* ConfirmViewController.swift */,
+				966DA6092C7DD9F600F00B35 /* FailedViewController.swift */,
 			);
 			path = "Segues-Gestures-Project";
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				966DA5F62C7DD2AF00F00B35 /* ViewController.swift in Sources */,
 				966DA5F22C7DD2AF00F00B35 /* AppDelegate.swift in Sources */,
 				966DA5F42C7DD2AF00F00B35 /* SceneDelegate.swift in Sources */,
+				966DA6082C7DD9E000F00B35 /* ConfirmViewController.swift in Sources */,
+				966DA60A2C7DD9F600F00B35 /* FailedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
